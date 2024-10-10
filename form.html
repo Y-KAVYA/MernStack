@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        border-style: solid;
+        border-width: 5px;;
+        border-color: black;
+        text-align: justify;
+        
+        padding-inline: 30px;
+        padding-right: 30px;
+    }
+    form{
+        text-align:left;
+        padding:0 530px 50px;
+
+    }
+    div{
+        border-style: solid;
+        border-width: 5px;;
+        border-color: black;
+    }
+</style>
+
+
+<div>
+<body>
+    <center><b>
+            <h1>Registration Form</h1>
+        </b>
+        <p>Of couse,all submitted information is kept in the strictest confidence<br>
+            You always retain control of your information with D.W.Simpson &Co<br>
+            <b>Our services are always at no cost to you.</b>
+        </p>
+    </center>
+
+    <form id="form"><b>
+            <label for="name">Name:</label><input type="text" id="name" placeholder="Enter first name"
+                required="true"><br><br>
+
+            <label for="address">Address:</label><input type="text" id="address" placeholder="Enter address"
+                required="true"><br><br>
+
+            <label for="city">City:</label><input type="text" id="city" placeholder="Enter city"
+                required="true"><br><br>
+            <label for="state">State/Province:</label><input type="text" id="state" placeholder="Enter state"
+                required="true"><br><br>
+            <label for="zip code">Zip code:</label><input type="text" id="zip code" placeholder="Enter zip code"
+                required="true"><br><br>
+            <label for="country">Country:</label><input type="text" id="country" placeholder="Enter country"
+                required="true"><br><br>
+            <label for="phone">Phone:(H)</label><input type="text" id="phone">Fax:<input type="text"><br><br>
+            <label>Phone:(W)</label><input type="text">(if able to speak freely)<br><br>
+            <label for="email">Email:</label><input type="text" id="email" placeholder="Enter email"
+                required="true"><br><br>
+            <label for="com name">Company name:</label><input type="text" id="com name"
+                placeholder="Enter company name">(optional)<br><br>
+
+            <label placeholder="other" for="region">Desired region:<input type="text" id="region">
+                <datalist id="region">
+                    <optgroup>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                    </optgroup>
+                </datalist>
+                
+            </label>
+            <label>Other:</label><input type="text"><br><br>
+            <label for="designation">Professional designations earned:</label><br><br>
+            <input type="checkbox">College student <input type="checkbox">Acturial Student <input type="checkbox">ACAS
+            <input type="checkbox">FCAS <input type="checkbox">ASA<br><input type="checkbox">FSA<input
+                type="checkbox">EA
+            <input type="checkbox">CFA <input type="checkbox">MBA <input type="checkbox">MAAA <input type="checkbox">FIA
+            <input type="checkbox">FCIA<br> <input type="checkbox">FIAA <input type="checkbox">Financial Engineer
+            <input type="checkbox">M.S <input type="checkbox">Ph.D <input type="checkbox">Data Mining <input
+                type="checkbox">Quant<br><br>
+            <label>Other<br> Designations:</label><input type="text"><br><br>
+            <button>submit</button>
+        </b>
+    </form>
+
+</body>
+</div>
+
+</html>
